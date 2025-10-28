@@ -50,7 +50,8 @@ def collect_tweets(query: str, max_results: int = 100):
 
     # 5) Put results in a DataFrame and add a collection timestamp
     df = pd.DataFrame(tweets)
-    df["collected_at"] = datetime.utcnow().isoformat()
+    from datetime import timezone
+    df["collected_at"] = datetime.now(timezone.utc).isoformat()
     return df
 
 if __name__ == "__main__":
