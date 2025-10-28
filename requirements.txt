@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+nltk
+textblob
+vaderSentiment
+tweepy
+requests
+beautifulsoup4
+wordcloud
+plotly
+matplotlib
+seaborn
+streamlit
+joblib
+python-dotenv
+emoji
