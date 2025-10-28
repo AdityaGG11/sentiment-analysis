@@ -1,0 +1,27 @@
+# Byte-compiled / Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Data / models
+data/
+models/
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
